@@ -1,5 +1,4 @@
 define(function(){
-	
 	return {
 		$ui:{
 			width: 200,
@@ -32,6 +31,9 @@ define(function(){
 						}
 					},
 					data:[
+                        {id: "services", value: "服务", open: true, data:[
+                            { id: "service_community", value: "社区服务", icon: "home", details:"提供社区周边的基础服务与生活"}
+                        ]},
 						{id: "main", value: "Main", open: true, data:[
 							{ id: "dashboard", value: "Dashboard", icon: "home", $css: "dashboard", details:"reports and statistics"},
 							{ id: "orders", value: "Orders", icon: "check-square-o", $css: "orders", details:"order reports and editing"},

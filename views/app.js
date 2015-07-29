@@ -14,7 +14,8 @@ define([
 
 		elements:[
 			{view: "label", label: "<a href='http://webix.com'><img class='photo' src='assets/imgs/webix-logotype.svg' height='40' /></a>", width: 200},
-
+			{view: "icon", icon: "search",  width: 45, popup: "searchPopup"},
+			{},
 			{ height:46, id: "person_template", css: "header_person", borderless:true, width: 180, data: {id:3,name: "Oliver Parr"},
 				template: function(obj){
 					var html = 	"<div style='height:100%;width:100%;' onclick='webix.$$(\"profilePopup\").show(this)'>";
@@ -23,8 +24,6 @@ define([
 					return html;
 				}
 			},
-			{},
-			{view: "icon", icon: "search",  width: 45, popup: "searchPopup"},
 			{view: "icon", icon: "envelope-o", value: 3, width: 45, popup: "mailPopup"},
 			{view: "icon", icon: "comments-o", value: 5, width: 45, popup: "messagePopup"}
 		]

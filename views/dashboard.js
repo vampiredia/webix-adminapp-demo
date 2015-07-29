@@ -4,9 +4,8 @@ define([
 	"views/modules/orders",
 	"views/modules/messages",
 	"views/modules/revenue",
-	"views/modules/tasks",
-	"views/modules/map"
-],function(dashline, visitors, orders, messages, revenue, tasks, map){
+	"views/modules/tasks"
+],function(dashline, visitors, orders, messages, revenue, tasks){
 	
 	var layout = {
 		type: "clean",
@@ -35,7 +34,7 @@ define([
 						type: "wide",
 						cols: [
 							tasks,
-							map
+                            {}
 						]
 					}
 				]

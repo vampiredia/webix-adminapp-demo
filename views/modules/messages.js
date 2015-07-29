@@ -21,7 +21,7 @@ define(function(){
 		},
 		"data": [
 			{ id: 1,  personId: 1, time:"Just now", name: "Peter Johnson"},
-			{ id: 2,  personId: 2, time:"Just now", name: "Vera Liu"},
+			{ id: 2,  personId: 1, time:"Just now", name: "Vera Liu"},
 			{ id: 3, personId: 1, time:"11:40", name: "Peter Johnson"},
 			{ id: 4, personId: 2, time:"11:30", name: "Vera Liu"},
 			{ id: 5, personId: 1, time:"10:10", name: "Peter Johnson"},

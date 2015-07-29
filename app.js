@@ -32,11 +32,11 @@ define([
 
 	//configuration
 	var app = core.create({
-		id:			"admin-demo",
-		name:		"Webix Admin",
+		id:			"admin-platform",
+		name:		"CoolJ Admin",
 		version:	"0.1",
 		debug:		true,
-		start:		"/app/dashboard"		
+		start:		"/app/service_community"
 	});
 
 	app.use(menu);
